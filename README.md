@@ -16,6 +16,10 @@ A VBA macro that splits the active Excel worksheet into new worksheets containin
 
 The macro determines the last used row by checking column A. It copies rows in groups of up to 5,000, starting at row 1, to newly created worksheets named `Sheet N`. Existing worksheet names that conflict with the generated names may prevent the macro from completing. Save a backup before running it on important workbooks.
 
+## E-Commerce Exports
+
+You can run the macro on a compatible Excel report exported from Ticimax or another e-commerce platform. This is a file-based utility; it does not connect to or exchange data directly with any platform.
+
 ## File
 
 - `SplitExcelRows.bas` — VBA macro source file.
@@ -39,6 +43,10 @@ Aktif Excel çalışma sayfasını, her biri en fazla 5.000 satır içeren yeni 
 4. Excel'e dönün, `Alt+F8` tuşlarına basın, `SplitExcelRows` makrosunu seçip çalıştırın.
 
 Makro, son kullanılan satırı A sütununa göre belirler. 1. satırdan başlayarak satırları en fazla 5.000 satırlık gruplara ayırır ve `Sheet N` adlı yeni çalışma sayfalarına kopyalar. Oluşturulacak sayfa adları mevcut sayfa adlarıyla çakışırsa makro tamamlanamayabilir. Önemli çalışma kitaplarında kullanmadan önce yedek alın.
+
+## E-Ticaret Çıktıları
+
+Makroyu Ticimax veya başka bir e-ticaret platformundan dışa aktarılan uyumlu bir Excel raporunda kullanabilirsiniz. Bu araç dosya üzerinden çalışır; herhangi bir platforma doğrudan bağlanmaz veya veri aktarımı yapmaz.
 
 ## Dosya
 
